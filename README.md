@@ -10,7 +10,7 @@ first decide where to put the mattermost log tail script
 I typically mkdir "sweet-scripts" in /usr/local/bin/
 
 once you decide where to place the script then modify the logtail.sh for your variables
-chmod +7 logtail.sh
+chmod +x logtail.sh
 
 then cp daemon config --> /etc/systemd/system  then rename it accordingly
 
